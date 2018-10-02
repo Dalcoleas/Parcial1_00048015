@@ -58,7 +58,11 @@ font-family: 'Raleway', sans-serif;*/
 
 h1{
     font-family: 'Monoton', cursive;
-    font-size: 60px;
+    font-size: 100px;
+    color: orange;
+}
+
+p{
     color: orange;
 }
 
@@ -69,6 +73,32 @@ h1{
     align-content: center;
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 120px 0;
     position: relative;
 }
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.5rem;
+    padding: 40px 25px;;
+    background-color: #ffffff;
+}
+
+/*.grid2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.grid3 div img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
