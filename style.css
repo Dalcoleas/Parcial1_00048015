@@ -114,8 +114,8 @@ p{
     text-align: left;
     border-radius: 3px;
     padding: 5px;
-    b
 }
+
 h4{
     color: #612e1d;
     margin-bottom: 10px;
@@ -159,13 +159,15 @@ co{
 }
 
 
-
 .form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-auto-rows: auto;
     grid-gap: 0.5rem;
     padding: 40px 25px;;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background: url(img/contacus.jpg);
 }
 
@@ -181,3 +183,22 @@ co{
 label{
     color: #ffffff;
 }
+
+.footer1{
+    background-color: black;
+    color:white;
+}
+
+.footer1 .gridFooter div p{
+    color: white;
+
+}
+
+.gridFooter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.5rem;
+    padding: 40px 25px;;
+}
+
