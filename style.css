@@ -63,6 +63,10 @@ h1{
 }
 
 p{
+    color: black;
+}
+
+.orange{
     color: orange;
 }
 
@@ -82,7 +86,7 @@ p{
     grid-auto-rows: auto;
     grid-gap: 0.5rem;
     padding: 40px 25px;;
-    background-color: #ffffff;
+    background-color: #dbdada;
 }
 
 /*.grid2{
@@ -99,6 +103,81 @@ p{
 .grid{
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+}
+.gridFor{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    border-radius: 3px;
+    padding: 5px;
+    b
+}
+h4{
+    color: #612e1d;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    
 }
 
+.normal{
+    background-color: orange;  
+    color: #ffffff;
+    border: none;
+    padding: 9px;
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.normal:hover{
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+
+}
+
+co{
+    color:#f5f5f5
+    #000000
+    #fff
+    orange
+    blue
+    #dbdada
+    #612e1d
+    #13131342
+    #440d5a
+    #fef6f4
+    rgba(245, 245, 245, 0.335)
+    rgba(109, 104, 104, 0.801)
+}
+
+
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.5rem;
+    padding: 40px 25px;;
+    background: url(img/contacus.jpg);
+}
+
+.area{
+    border: 1px solid #8373ca;
+    width: 100%;
+    display: block;
+    color: #ffffff;
+    height: 160px;
+    padding: 15px 20px;
+}
+
+label{
+    color: #ffffff;
+}
